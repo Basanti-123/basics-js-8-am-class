@@ -1,41 +1,50 @@
-console.log("Hello World")
+console.log("Hello World");
 
-// hello word (single line comment)
+// Multi line comment
+/*
+Read me comment
+Variables - named storage
 
-/* (multi line comment)
-h
-s
-as
-as
+=> standard ECMASCRIPT 
+es5
+var
+
+es6
+let
+const
+var
 */
- var person = "basanti";   //contsiner = data
- var fullName = "basanti Nagari";
- var isAdult = "yes";
- // =========
- const personName = "ramita";
 
- // var/ let = data replace garna
- // const = constant variable
+var person = "basanti"; // container = data
+var fullName = "basanti Nagari";
+var isAdult = "yes";
+// ==========
+let persons = "Shyam";
+// ==========
+const personName = "raven";
 
- // Hosting 
+// var/ let  =  data replace garna
+// const = constant variable
 
- const phone = "1234";
- console.log(person);
+// HOISTING
 
- // intractions
+const phone = "1234";
 
- // promt, confirm, alert
+console.log(person);
 
- // alert notification
+// Interactions
 
- alert("Good morning Basanti");
+// prompt, confirm, alert
 
- // prompt = Questionnaire
+// alert notifcation
 
- const age = prompt("How old aru you?");
- console.log(age);
- 
+alert("Good morning Raktim");
 
- // confirm = yes/no question
- const isValid = confirm("Are you above 18 years?");
- console.log(isValid)
+// prompt = Questionnaire
+const age = prompt("How old are you?");
+console.log(age);
+
+// confirm =  Yes/no question
+const isValid = confirm("Are you above 18 years?");
+
+console.log(isValid);
