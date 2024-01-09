@@ -98,6 +98,3 @@ if (!isAdult) {
 } else {
   alert("You are adult");
 }
-
-// raktim_shrestha (raw)
-// Raktim Shrestha (output)
